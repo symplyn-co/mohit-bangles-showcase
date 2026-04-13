@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-2xl font-bold mb-4">
+            <h3 className="font-logo font-heading text-2xl font-bold mb-4">
               DH <span className="text-primary">Bangles</span>
             </h3>
             <p className="font-body text-sm text-primary-foreground/70 leading-relaxed max-w-xs">

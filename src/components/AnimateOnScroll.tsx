@@ -1,42 +1,31 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { motion } from "framer-motion";
+import type { ReactNode } from "react";
 
 interface AnimateOnScrollProps {
   children: ReactNode;
   className?: string;
-  animation?: string;
-  delay?: string;
+  delay?: number; // ✅ change to number (important)
 }
 
 const AnimateOnScroll = ({
   children,
   className = "",
-  animation = "animate-fade-up",
-  delay = "",
+  delay = 0,
 }: AnimateOnScrollProps) => {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      { threshold: 0.15 }
-    );
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <div
-      ref={ref}
-      className={`${className} ${visible ? `${animation} ${delay}` : "opacity-0"}`}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.6,
+        delay: delay,
+        ease: "easeOut",
+      }}
+      viewport={{ once: true, margin: "-50px" }}
+      className={className}
     >
       {children}
-    </div>
+    </motion.div>
   );
 };
 

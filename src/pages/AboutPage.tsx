@@ -2,10 +2,10 @@ import aboutCraft from "@/assets/about-craft.jpg";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const values = [
-  { icon: "fas fa-gem", title: "Premium Quality", desc: "Only the finest 22K and 24K gold, BIS hallmarked for your assurance." },
-  { icon: "fas fa-hand-sparkles", title: "Master Craftsmanship", desc: "Each piece is handcrafted by artisans with decades of experience." },
-  { icon: "fas fa-heart", title: "Made with Love", desc: "Every bangle carries the passion and dedication of our craftsmen." },
-  { icon: "fas fa-award", title: "Trusted Heritage", desc: "A legacy of excellence trusted by families for generations." },
+  { icon: "fas fa-gem", title: "Premium Quality", desc: "Carefully crafted bangles with high-quality materials for lasting durability and finish." },
+  { icon: "fas fa-hand-sparkles", title: "Expert Craftsmanship", desc: "Each piece is designed and finished by skilled artisans with years of experience." },
+  { icon: "fas fa-heart", title: "Made with Care", desc: "Every bangle reflects attention to detail and dedication in every step of creation." },
+  { icon: "fas fa-award", title: "Trusted Heritage", desc: "A name trusted by customers for quality and consistency over the years." },
 ];
 
 const AboutPage = () => {
@@ -29,20 +29,20 @@ const AboutPage = () => {
                 <img src={aboutCraft} alt="Our craftsman at work" loading="lazy" width={1200} height={800} className="w-full h-auto object-cover" />
               </div>
             </AnimateOnScroll>
-            <AnimateOnScroll animation="animate-slide-in-right">
-              <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Our Story</p>
-              <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">A Legacy of Golden Excellence</h2>
-              <div className="w-12 h-0.5 bg-primary mt-4 mb-6" />
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                Nestled in the vibrant city of Rajkot, Gujarat — renowned as one of India's premier jewellery hubs — DH Bangles has been at the forefront of bangle craftsmanship for generations.
-              </p>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
-                What began as a humble workshop has grown into a trusted name synonymous with quality, artistry, and innovation. Our master artisans blend age-old techniques with modern sensibilities to create pieces that are as unique as the women who wear them.
-              </p>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
-                Every bangle that leaves our workshop undergoes rigorous quality checks, ensuring that you receive nothing short of perfection. We take immense pride in our BIS hallmarked gold and our commitment to ethical sourcing.
-              </p>
-            </AnimateOnScroll>
+           <AnimateOnScroll>
+  <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Our Story</p>
+  <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">A Legacy of Craftsmanship</h2>
+  <div className="w-12 h-0.5 bg-primary mt-4 mb-6" />
+  <p className="font-body text-sm text-muted-foreground leading-relaxed">
+    Nestled in the vibrant city of Rajkot, Gujarat — renowned as one of India's premier hubs for bangle manufacturing — DH Bangles has been dedicated to fine craftsmanship for generations.
+  </p>
+  <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
+    What began as a humble workshop has grown into a trusted name known for quality, creativity, and attention to detail. Our artisans combine traditional techniques with modern designs to create bangles that suit every style and occasion.
+  </p>
+  <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
+    Every piece is carefully crafted and inspected to ensure durability, comfort, and finish — so you receive products that truly stand out.
+  </p>
+</AnimateOnScroll>
           </div>
         </div>
       </section>

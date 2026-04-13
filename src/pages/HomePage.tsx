@@ -106,10 +106,10 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {categoriesData.map((cat, i) => (
-              <AnimateOnScroll key={cat.slug} delay={`animation-delay-${(i + 1) * 100}`}>
+              <AnimateOnScroll key={cat.slug} delay={i * 0.15}>
                 <Link
                   to={`/categories?filter=${cat.slug}`}
-                  className="group block relative rounded-lg overflow-hidden aspect-[3/4]"
+                  className="group block relative rounded-lg overflow-hidden aspect-[3/4] transition-all duration-500 hover:-translate-y-1"
                 >
                   <img
                     src={cat.image}
@@ -117,7 +117,7 @@ const HomePage = () => {
                     loading="lazy"
                     width={800}
                     height={1024}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">

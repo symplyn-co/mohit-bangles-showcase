@@ -21,7 +21,7 @@ export const products: Product[] = [
     category: "Bridal",
     image: product1,
     description: "Exquisite handcrafted filigree work in 22K gold, perfect for bridal occasions. Each piece is meticulously crafted by our master artisans with over 40 years of experience.",
-    code: "DH-BR-001",
+    code: "MB-BR-001",
   },
   {
     id: "2",
@@ -29,7 +29,7 @@ export const products: Product[] = [
     category: "Fancy",
     image: product2,
     description: "Traditional Rajasthani meenakari enamel work with vibrant red and green stones set in pure gold. A statement piece for festive celebrations.",
-    code: "DH-FN-002",
+    code: "MB-FN-002",
   },
   {
     id: "3",
@@ -37,7 +37,7 @@ export const products: Product[] = [
     category: "Fancy",
     image: product3,
     description: "Contemporary diamond-cut pattern with geometric precision. A modern take on traditional bangle design, perfect for the fashion-forward woman.",
-    code: "DH-FN-003",
+    code: "MB-FN-003",
   },
   {
     id: "4",
@@ -45,7 +45,7 @@ export const products: Product[] = [
     category: "Daily Wear",
     image: product4,
     description: "A set of elegant thin gold bangles with delicate engravings. Lightweight and comfortable for everyday elegance.",
-    code: "DH-DW-004",
+    code: "MB-DW-004",
   },
   {
     id: "5",
@@ -53,7 +53,7 @@ export const products: Product[] = [
     category: "Bridal",
     image: product5,
     description: "Opulent kundan-studded bridal bangles set with intricate detailing. The ultimate statement for your special day.",
-    code: "DH-BR-005",
+    code: "MB-BR-005",
   },
   {
     id: "6",
@@ -61,7 +61,7 @@ export const products: Product[] = [
     category: "Fancy",
     image: product6,
     description: "Antique finish bangle with traditional temple design motifs inspired by South Indian artistry. Rich heritage in every curve.",
-    code: "DH-FN-006",
+    code: "MB-FN-006",
   },
 ];
 

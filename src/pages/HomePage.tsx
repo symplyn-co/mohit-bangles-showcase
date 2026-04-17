@@ -24,7 +24,7 @@ const HomePage = () => {
         <div className="absolute inset-0">
           <img
             src={heroBanner}
-            alt="Premium gold bangles from DH Bangles"
+            alt="Premium gold bangles from Mohit Bangles"
             width={1920}
             height={1080}
             className="w-full h-full object-cover"
@@ -32,34 +32,38 @@ const HomePage = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
         </div>
         <div className="container-luxury relative z-10">
-          <div className="max-w-xl">
-            <p className="font-body text-xs md:text-sm uppercase tracking-[0.3em] text-primary mb-4 animate-fade-up">
-              Handcrafted Excellence
-            </p>
-            <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight animate-fade-up animation-delay-100">
-              Timeless Gold, <br />
-              <span className="text-primary italic">Crafted with Love</span>
-            </h1>
-            <p className="font-body text-sm md:text-base text-primary-foreground/80 mt-6 max-w-md leading-relaxed animate-fade-up animation-delay-200">
-              Discover our exquisite collection of handcrafted gold bangles, where tradition meets contemporary elegance.
-            </p>
-            <div className="flex gap-4 mt-8 animate-fade-up animation-delay-300">
-              <Link
-                to="/products"
-                className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-gold-dark transition-colors duration-300 tracking-wide"
-              >
-                Explore Collection
-                <i className="fas fa-arrow-right text-xs" />
-              </Link>
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-2 border border-primary-foreground/30 text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-primary-foreground/10 transition-colors duration-300 tracking-wide"
-              >
-                Contact Us
-              </Link>
-            </div>
-          </div>
-        </div>
+  <div className="max-w-xl">
+    <p className="font-body text-xs md:text-sm uppercase tracking-[0.3em] text-primary mb-4 animate-fade-up">
+      One Solution For Rajkot Bangles
+    </p>
+
+    <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight animate-fade-up animation-delay-100">
+      Mohit Bangles <br />
+      <span className="text-primary italic">The World of Bangles</span>
+    </h1>
+
+    <p className="font-body text-sm md:text-base text-primary-foreground/80 mt-6 max-w-md leading-relaxed animate-fade-up animation-delay-200">
+      Explore a wide range of brass and plastic bangles in different designs and styles. Perfect for daily wear and bulk purchase.
+    </p>
+
+    <div className="flex gap-4 mt-8 animate-fade-up animation-delay-300">
+      <Link
+        to="/products"
+        className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-gold-dark transition-colors duration-300 tracking-wide"
+      >
+        View Designs
+        <i className="fas fa-arrow-right text-xs" />
+      </Link>
+
+      <Link
+        to="/contact"
+        className="inline-flex items-center gap-2 border border-primary-foreground/30 text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-primary-foreground/10 transition-colors duration-300 tracking-wide"
+      >
+        Contact Now
+      </Link>
+    </div>
+  </div>
+</div>
       </section>
 
       {/* Featured Products */}
@@ -151,25 +155,32 @@ const HomePage = () => {
               </div>
             </AnimateOnScroll>
             <AnimateOnScroll animation="animate-slide-in-right">
-              <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Our Heritage</p>
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground leading-tight">
-                Crafted by Hand, <br />Treasured Forever
-              </h2>
-              <div className="w-16 h-0.5 bg-primary mt-4 mb-6" />
-              <p className="font-body text-sm text-muted-foreground leading-relaxed">
-                At DH Bangles, we carry forward a legacy of masterful goldsmithing passed down through generations. Based in the heart of Rajkot, Gujarat — India's jewellery capital — our artisans pour their soul into every piece they create.
-              </p>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
-                From intricate filigree work to bold contemporary designs, each bangle is a testament to the perfect marriage of tradition and innovation.
-              </p>
-              <Link
-                to="/about"
-                className="inline-flex items-center gap-2 mt-8 bg-primary text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-gold-dark transition-colors duration-300 tracking-wide"
-              >
-                Our Story
-                <i className="fas fa-arrow-right text-xs" />
-              </Link>
-            </AnimateOnScroll>
+  <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">
+    Our Collection
+  </p>
+
+  <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground leading-tight">
+    Wide Range of Bangles, <br />For Every Need
+  </h2>
+
+  <div className="w-16 h-0.5 bg-primary mt-4 mb-6" />
+
+  <p className="font-body text-sm text-muted-foreground leading-relaxed">
+    At Mohit Bangles, we offer a wide variety of brass and plastic bangles in different designs, sizes, and styles. Based in Rajkot, we provide options suitable for daily wear and bulk purchase.
+  </p>
+
+  <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
+    From simple designs to stylish collections, our bangles are made to match different customer needs at affordable prices.
+  </p>
+
+  <Link
+    to="/about"
+    className="inline-flex items-center gap-2 mt-8 bg-primary text-primary-foreground font-body text-sm font-medium px-8 py-3 rounded-sm hover:bg-gold-dark transition-colors duration-300 tracking-wide"
+  >
+    Know More
+    <i className="fas fa-arrow-right text-xs" />
+  </Link>
+</AnimateOnScroll>
           </div>
         </div>
       </section>

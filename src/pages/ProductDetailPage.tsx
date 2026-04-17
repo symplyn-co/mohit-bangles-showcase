@@ -85,7 +85,7 @@ const ProductDetailPage = () => {
                 <div className="flex flex-wrap gap-4 mt-8">
                   <a
                     target="_blank"
-                    href={`https://wa.me/919574735141?text=${encodeURIComponent(
+                    href={`https://wa.me/917600234489?text=${encodeURIComponent(
   `Hi, I'm interested in:\n${product.name} (${product.code})\nhttps://dh-bangles.symplyn.in/products/${product.id}`
 )}`}
                     rel="noopener noreferrer"

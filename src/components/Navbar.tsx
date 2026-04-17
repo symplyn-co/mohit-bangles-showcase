@@ -39,7 +39,7 @@ const Navbar = () => {
     scrolled ? "text-[#2C2C2C]" : "text-[#cec9b9]"
   }`}
 >
-  DH <span className="text-primary">Bangles</span>
+  Mohit<span className="text-primary"> Bangles</span>
 </span>
         </Link>
 

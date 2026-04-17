@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         heading: ['"Playfair Display"', 'Georgia', 'serif'],
         body: ['Poppins', 'system-ui', 'sans-serif'],
-        logo: ['"Fondamento"', 'cursive'],
+         logo: ['"Overlock SC"', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",

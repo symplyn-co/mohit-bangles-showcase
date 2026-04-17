@@ -7,7 +7,7 @@ const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Name: ${form.name}%0APhone: ${form.phone}%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/919574735141?text=${text}`, "_blank");
+    window.open(`https://wa.me/917600234489?text=${text}`, "_blank");
   };
 
   return (
@@ -87,10 +87,12 @@ const ContactPage = () => {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <i className="fas fa-map-marker-alt text-primary" />
                   </div>
-                  <div>
-                    <h3 className="font-heading text-base font-semibold text-foreground">Our Showroom</h3>
-                    <p className="font-body text-sm text-muted-foreground mt-1">Rajkot, Gujarat, India</p>
-                  </div>
+                 <div>
+  <h3 className="font-heading text-base font-semibold text-foreground">Our Showroom</h3>
+  <p className="font-body text-sm text-muted-foreground mt-1">
+    Sant Kabir Road, Imitation Market, Rajkot, Gujarat
+  </p>
+</div>
                 </div>
 
                 <div className="flex items-start gap-4">
@@ -99,7 +101,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-base font-semibold text-foreground">Phone</h3>
-                    <p className="font-body text-sm text-muted-foreground mt-1">+91 95747 35141</p>
+                    <p className="font-body text-sm text-muted-foreground mt-1">+91 76002 34489</p>
                   </div>
                 </div>
 
@@ -109,7 +111,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-heading text-base font-semibold text-foreground">Email</h3>
-                    <p className="font-body text-sm text-muted-foreground mt-1">info@dhbangles.com</p>
+                    <p className="font-body text-sm text-muted-foreground mt-1">info@mohitbangles.com</p>
                   </div>
                 </div>
 
@@ -117,11 +119,15 @@ const ContactPage = () => {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <i className="fas fa-clock text-primary" />
                   </div>
-                  <div>
-                    <h3 className="font-heading text-base font-semibold text-foreground">Business Hours</h3>
-                    <p className="font-body text-sm text-muted-foreground mt-1">Mon – Sat: 10:00 AM – 8:00 PM</p>
-                    <p className="font-body text-sm text-muted-foreground">Sunday: Closed</p>
-                  </div>
+                 <div>
+  <h3 className="font-heading text-base font-semibold text-foreground">Business Hours</h3>
+  <p className="font-body text-sm text-muted-foreground mt-1">
+    Mon – Sat: 10:00 AM – 8:00 PM
+  </p>
+  <p className="font-body text-sm text-muted-foreground">
+    Sunday: Closed
+  </p>
+</div>
                 </div>
               </div>
 
@@ -132,7 +138,7 @@ const ContactPage = () => {
                   Message us directly on WhatsApp for the fastest response.
                 </p>
                 <a
-                  href="https://wa.me/919574735141"
+                  href="https://wa.me/917600234489"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body text-sm font-medium px-6 py-3 rounded-sm hover:bg-gold-dark transition-colors duration-300"

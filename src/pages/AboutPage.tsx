@@ -2,10 +2,10 @@ import aboutCraft from "@/assets/about-craft.jpg";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const values = [
-  { icon: "fas fa-gem", title: "Premium Quality", desc: "Carefully crafted bangles with high-quality materials for lasting durability and finish." },
-  { icon: "fas fa-hand-sparkles", title: "Expert Craftsmanship", desc: "Each piece is designed and finished by skilled artisans with years of experience." },
-  { icon: "fas fa-heart", title: "Made with Care", desc: "Every bangle reflects attention to detail and dedication in every step of creation." },
-  { icon: "fas fa-award", title: "Trusted Heritage", desc: "A name trusted by customers for quality and consistency over the years." },
+  { icon: "fas fa-gem", title: "Wide Variety", desc: "Different types of brass and plastic bangles available in multiple designs and styles." },
+  { icon: "fas fa-hand-sparkles", title: "Bulk Availability", desc: "Products available in bulk quantity, suitable for shops and resellers." },
+  { icon: "fas fa-heart", title: "Affordable Pricing", desc: "Reasonable pricing to suit all types of customers and business needs." },
+  { icon: "fas fa-award", title: "Trusted Shop", desc: "Known in Rajkot for variety, consistency, and reliable service." },
 ];
 
 const AboutPage = () => {
@@ -15,7 +15,7 @@ const AboutPage = () => {
       <section className="py-12 md:py-16 bg-secondary">
         <div className="container-luxury text-center">
           <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Who We Are</p>
-          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground">About DH Bangles</h1>
+          <h1 className="font-heading text-3xl md:text-4xl font-bold text-foreground">About Mohit Bangles</h1>
           <div className="w-16 h-0.5 bg-primary mx-auto mt-4" />
         </div>
       </section>
@@ -30,17 +30,24 @@ const AboutPage = () => {
               </div>
             </AnimateOnScroll>
            <AnimateOnScroll>
-  <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Our Story</p>
-  <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">A Legacy of Craftsmanship</h2>
+  <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-3">Our Shop</p>
+
+  <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
+    One Solution For All Bangles
+  </h2>
+
   <div className="w-12 h-0.5 bg-primary mt-4 mb-6" />
+
   <p className="font-body text-sm text-muted-foreground leading-relaxed">
-    Nestled in the vibrant city of Rajkot, Gujarat — renowned as one of India's premier hubs for bangle manufacturing — DH Bangles has been dedicated to fine craftsmanship for generations.
+    Mohit Bangles is based in Rajkot and offers a wide range of brass and plastic bangles in different designs and sizes.
   </p>
+
   <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
-    What began as a humble workshop has grown into a trusted name known for quality, creativity, and attention to detail. Our artisans combine traditional techniques with modern designs to create bangles that suit every style and occasion.
+    We provide options suitable for daily wear as well as bulk purchase for shops and resellers.
   </p>
+
   <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
-    Every piece is carefully crafted and inspected to ensure durability, comfort, and finish — so you receive products that truly stand out.
+    Our focus is to give good variety, proper finishing, and affordable pricing for all customers.
   </p>
 </AnimateOnScroll>
           </div>
@@ -76,11 +83,11 @@ const AboutPage = () => {
         <div className="container-luxury">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {[
-              { number: "10+", label: "Years of Experience" },
-              { number: "500+", label: "Happy Customers" },
-              { number: "100+", label: "Unique Designs" },
-              { number: "100%", label: "Premium Finish" },
-            ].map((stat) => (
+  { number: "10+", label: "Years in Business" },
+  { number: "500+", label: "Regular Customers" },
+  { number: "100+", label: "Design Options" },
+  { number: "100%", label: "Customer Satisfaction" },
+].map((stat) => (
               <AnimateOnScroll key={stat.label}>
                 <p className="font-heading text-3xl md:text-4xl font-bold text-primary">{stat.number}</p>
                 <p className="font-body text-sm text-muted-foreground mt-2">{stat.label}</p>

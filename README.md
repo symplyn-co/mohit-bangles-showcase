@@ -1,12 +1,7 @@
-# Welcome to your Lovable project
-
-TODO: Document your project here
 
 ```
-dh-bangles-showcase-main
+mohit-bangles-showcase-main
 ├─ .env
-├─ bun.lock
-├─ bun.lockb
 ├─ components.json
 ├─ eslint.config.js
 ├─ index.html
@@ -27,6 +22,7 @@ dh-bangles-showcase-main
 │  │  ├─ cat-bridal.jpg
 │  │  ├─ cat-daily.jpg
 │  │  ├─ cat-fancy.jpg
+│  │  ├─ hero-bangles.jpg
 │  │  ├─ hero-banner.jpg
 │  │  ├─ product-1.jpg
 │  │  ├─ product-2.jpg
@@ -125,6 +121,7 @@ dh-bangles-showcase-main
 ├─ tsconfig.app.json
 ├─ tsconfig.json
 ├─ tsconfig.node.json
+├─ vercel.json
 ├─ vite.config.ts
 └─ vitest.config.ts
 
